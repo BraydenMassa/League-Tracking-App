@@ -13,9 +13,9 @@ mongoose.connect(process.env.DB_ACCESS, () => console.log('DB connected'))
 app.use(express.json())
 app.use(cors())
 
-app.get('/', (req, res) => {
-    res.send('hi')
-})
+//Routes
+const summonerRoute = require('./routes/Routes')
+app.use('/', summonerRoute)
 
 const PORT = process.env.PORT || 4000
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
