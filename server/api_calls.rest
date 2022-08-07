@@ -1,17 +1,5 @@
-GET http://localhost:4000/games/latestGame
+GET http://localhost:4000/get-puuid/by-summoner-name/theBrayJay
 
 ###
 
-GET http://localhost:4000/summoner/by-name/BotTopJgTrash
-
-###
-
-GET http://localhost:4000/summoner/by-puuid/zBeUscB9yO7qJLA3VKWs7z2jrQz5HicOshWVtMoPkpaDmC7Tb095cr2Q2doOAtCLjg5-JAV1KCQLtg
-
-###
-
-GET http://localhost:4000/my/PUUID/
-
-###
-
-GET http://localhost:4000/games/latestGame/by-puuid/5KymD68cm2jWTl8zB7wrTnkBUVZh9AaeYQ9mu30u9CDV2u8kZm1gkgaPflKUcsS-wfoLe4MU1dxngw
+GET http://localhost:4000/last-n-matches/by-summoner/10/peepoDoorSlam
