@@ -65,6 +65,7 @@ function refineGameData(unrefinedGameData) {
         participants: participants.map(participant => {
 
             const { summonerName,
+                    championName,
                     kills, 
                     deaths, 
                     assists, 
@@ -78,6 +79,7 @@ function refineGameData(unrefinedGameData) {
             return {
                 team,
                 summonerName,
+                championName,
                 kills, 
                 deaths, 
                 assists, 

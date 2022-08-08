@@ -2,4 +2,4 @@ GET http://localhost:4000/get-puuid/by-summoner-name/theBrayJay
 
 ###
 
-GET http://localhost:4000/last-n-matches/by-summoner/10/peepoDoorSlam
+GET http://localhost:4000/last-n-matches/by-summoner/1/theBrayJay
